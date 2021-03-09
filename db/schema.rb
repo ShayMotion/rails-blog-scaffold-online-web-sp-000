@@ -10,7 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 2020_03_08_152617) do
+=======
+ActiveRecord::Schema.define(version: 2020_03_08_044728) do
+>>>>>>> 920c2d24811e67f56ad28cfaa5911a4ffa70be8f
 
   create_table "apartments", force: :cascade do |t|
     t.string "address"
@@ -20,6 +24,7 @@ ActiveRecord::Schema.define(version: 2020_03_08_152617) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
+<<<<<<< HEAD
 
   create_table "posts", force: :cascade do |t|
     t.string "title"
@@ -27,5 +32,7 @@ ActiveRecord::Schema.define(version: 2020_03_08_152617) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
+=======
+>>>>>>> 920c2d24811e67f56ad28cfaa5911a4ffa70be8f
 
 end

@@ -1,4 +1,4 @@
-# Rails Blog
+ # Rails Blog
 
 ## Instructions
 
